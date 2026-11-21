@@ -24,7 +24,9 @@ DeepSeek / 智谱（GLM）余额与花费的桌面监控面板。视觉走 **玻
 ```powershell
 pip install -r requirements.txt
 
-# 1) 填配置：编辑 config.json（或用界面里的「设置」）
+# 1) 复制一份自己的配置（config.json 已被 .gitignore 忽略，避免 API Key 进版本库）
+copy config.example.json config.json
+#    然后编辑 config.json（或用界面里的「设置」）：
 #    把 deepseek.enabled 设为 true、api_key 填上
 
 python main.py          # 打开面板

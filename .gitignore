@@ -9,3 +9,4 @@ dist/
 state.json
 monitor.log*
 docs/*.tmp
+config.json
