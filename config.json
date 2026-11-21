@@ -1,0 +1,27 @@
+{
+  "currency": "CNY",
+  "polling_interval": 60,
+  "total_spend_alert": 100,
+  "alert_cooldown": 1800,
+  "pricing": {
+    "off_peak_window": ["00:30", "08:30"],
+    "off_peak_multiplier": 0.5
+  },
+  "providers": {
+    "deepseek": {
+      "enabled": false,
+      "api_key": "",
+      "balance_alert": 10,
+      "spend_alert": 50,
+      "currency": "CNY"
+    },
+    "zhipu": {
+      "enabled": false,
+      "api_key": "",
+      "initial_balance": 100,
+      "balance_alert": 10,
+      "spend_alert": 50,
+      "currency": "CNY"
+    }
+  }
+}
